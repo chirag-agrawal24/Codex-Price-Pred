@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+*.csv
+meta_data.txt
+*.pdf
+mlruns
+models
+mlartifacts
+app/__pycache__

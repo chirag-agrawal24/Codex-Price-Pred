@@ -1,0 +1,130 @@
+{
+    "columns": [
+        "gender",
+        "zone",
+        "occupation",
+        "income_levels",
+        "consume_frequency(weekly)",
+        "current_brand",
+        "preferable_consumption_size",
+        "awareness_of_other_brands",
+        "reasons_for_choosing_brands",
+        "flavor_preference",
+        "purchase_channel",
+        "packaging_preference",
+        "health_concerns",
+        "typical_consumption_situations",
+        "age_group",
+        "cf_ab_score",
+        "zas_score",
+        "bsi"
+    ],
+    "gender": [
+        "M",
+        "F"
+    ],
+    "zone": [
+        "Urban",
+        "Metro",
+        "Rural",
+        "Semi-Urban"
+    ],
+    "occupation": [
+        "Working Professional",
+        "Student",
+        "Entrepreneur",
+        "Retired"
+    ],
+    "income_levels": [
+        "<10L",
+        "> 35L",
+        "16L - 25L",
+        "Not Reported",
+        "10L - 15L",
+        "26L - 35L"
+    ],
+    "consume_frequency(weekly)": [
+        "3-4 times",
+        "5-7 times",
+        "0-2 times"
+    ],
+    "current_brand": [
+        "Newcomer",
+        "Established"
+    ],
+    "preferable_consumption_size": [
+        "Medium (500 ml)",
+        "Large (1 L)",
+        "Small (250 ml)"
+    ],
+    "awareness_of_other_brands": [
+        "0 to 1",
+        "2 to 4",
+        "above 4"
+    ],
+    "reasons_for_choosing_brands": [
+        "Price",
+        "Quality",
+        "Availability",
+        "Brand Reputation"
+    ],
+    "flavor_preference": [
+        "Traditional",
+        "Exotic"
+    ],
+    "purchase_channel": [
+        "Online",
+        "Retail Store"
+    ],
+    "packaging_preference": [
+        "Simple",
+        "Premium",
+        "Eco-Friendly"
+    ],
+    "health_concerns": [
+        "Medium (Moderately health-conscious)",
+        "Low (Not very concerned)",
+        "High (Very health-conscious)"
+    ],
+    "typical_consumption_situations": [
+        "Active (eg. Sports, gym)",
+        "Social (eg. Parties)",
+        "Casual (eg. At home)"
+    ],
+    "age_group": [
+        "26-35",
+        "46-55",
+        "36-45",
+        "18-25",
+        "56-70"
+    ],
+    "cf_ab_score": [
+        0.67,
+        0.6,
+        0.5,
+        0.75,
+        0.4,
+        0.33,
+        0.25
+    ],
+    "zas_score": [
+        3,
+        20,
+        5,
+        9,
+        0,
+        6,
+        12,
+        2,
+        4,
+        8,
+        15,
+        16,
+        1,
+        10
+    ],
+    "bsi": [
+        1,
+        0
+    ]
+}
