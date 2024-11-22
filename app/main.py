@@ -4,7 +4,7 @@ import streamlit as st
 from price_calculator import calculate
 
 # Define the page layout
-st.title('Health Insurance Cost Predictor')
+st.title('Codex Beverage Price Prediction')
 
 with open("artifacts/column_datas.json") as json_file:
     categorical_options = json.load(json_file)
