@@ -6,7 +6,7 @@ from price_calculator import calculate
 # Define the page layout
 st.title('Codex Beverage Price Prediction')
 
-with open("artifacts/column_datas.json") as json_file:
+with open("app/artifacts/column_datas.json") as json_file:
     categorical_options = json.load(json_file)
 
 

@@ -2,13 +2,13 @@ import pandas as pd
 import json
 import joblib
 
-with open("artifacts/column_datas.json") as json_file:
+with open("app/artifacts/column_datas.json") as json_file:
     columns_for_model = json.load(json_file)['columns']
 
-model_path= "artifacts/LightGBM_best_model.joblib"
+model_path= "app/artifacts/LightGBM_best_model.joblib"
 model=joblib.load(model_path)
 
-encoder_path="artifacts/target_encoder.joblib"
+encoder_path="app/artifacts/target_encoder.joblib"
 target_encoder=joblib.load(encoder_path)
 
 
