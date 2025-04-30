@@ -80,7 +80,6 @@ def feature_engineered(input_dict:dict):
 def calculate(input_dict:dict):
     
     df=feature_engineered(input_dict)
-    print(df)
     encoded_result = model.predict(df)
     result=target_encoder.inverse_transform(encoded_result.reshape(-1, 1))[0,0]
 
